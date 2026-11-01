@@ -1,0 +1,516 @@
+
+
+/*navigation bar css  */
+nav ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex;         
+            justify-content: center;
+            align-items: left;
+            
+            gap: 20px;             
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+            background-color: rgba(36, 1, 93, 0.5);
+            border: 1px solid purple;
+            border-style: dotted;
+        }
+
+        nav img {
+            aspect-ratio:1/1 square;    /* Force a uniform shape (e.g., 1:1 square, 4/3, 16/9) */
+            object-fit: cover;       
+            }
+
+        nav a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none; 
+        }
+        nav a:hover {
+            color: hsl(7, 88%, 67%);
+        }
+
+/********************************************************************/
+
+/*default layout of WEBSITE, desktops, laptops*/
+body
+{
+    background-image: 
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-squiggly-line-bottom-desktop.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-lines.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-circle.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-circle.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-squiggly-line-top.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/background-desktop.png");
+   
+   
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, center, top left 30px, center right 250px, top 60px right, right;
+    background-size: 500px, cover, 150px, 150px, 300px, cover;
+    background-attachment: fixed, fixed, local, local, fixed, fixed;
+   
+
+ font-family: Arial, Helvetica, sans-serif;
+ color:white;
+ text-align: center;
+
+}
+
+/********************************************************************/
+
+/*media query for tablets*/
+@media only screen and (max-width:768px)
+
+{
+
+body
+{
+    background-image: 
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-squiggly-line-bottom-desktop.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-lines.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-circle.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-circle.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-squiggly-line-top.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/background-tablet.png");
+   
+   
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, center, top left 30px, center right 250px, top 60px right, right;
+    background-size: 500px, cover, 150px, 150px, 300px, cover;
+    background-attachment: fixed, fixed, local, local, fixed, fixed;
+
+
+ font-family: Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+ text-align: center;
+ 
+
+}
+}
+/********************************************************************/
+
+/*media query for phones*/
+
+@media only screen and (max-width:375px)
+{
+body
+{
+    background-image: 
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-squiggly-line-bottom-desktop.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-lines.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-circle.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-circle.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/pattern-squiggly-line-top.svg"),
+    url("file:///C:/Users/EB/Downloads/Web%20Programming/IA2/1906830_Thompson_Ludlow_IA%232/assets_1906830/images_1906830/background-mobile.png");
+   
+   
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, center, top left 30px, center right 250px, top 60px right, right;
+    background-size: 500px, cover, 150px, 150px, 300px, cover;
+    background-attachment: fixed, fixed, local, local, fixed, fixed;
+   
+
+ font-family: Arial, Helvetica, sans-serif;
+ color: magenta;
+ text-align: center;
+
+}
+}
+
+/************************************************/
+
+/*Landing Page - CSS for h1 headings */
+h1
+
+{ 
+    font-weight: bold;
+ text-shadow:10px 10px 15px hsl(245, 19%, 35%);
+
+}
+
+/********************************************************************/
+
+
+/*Landing Page - CSS for: h3 (Learn to code from web programming professionals....) and Coding Conf Logo placed over 
+image (pictureweblaptop.avif) i.e laptop phone image */
+
+.textoverimage1
+{
+position: relative;
+  display: inline-block; 
+  width: 100%;           
+  max-width: 600px; 
+}
+
+.textoverimage1 img
+{
+width: 100%;
+  display: block;        
+  height: auto;
+
+}
+
+.textoverimage1 h3
+{
+    width:50%;
+}
+
+
+.imageoverlay
+{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Offsets the text by its own width/height */
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  text-align: center; 
+
+}
+
+.textoverlay
+{
+  position: absolute;
+  top: 60%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-align: left; 
+  font-style: italic;
+
+}
+
+.learntocode
+{
+    overflow-wrap: break-word;
+}
+
+/********************************************************************/
+
+
+/*Landing Page - CSS for h2 heading (LIVE and ONLINE) 
+and CSS for section "sectionlive" elements (img, p,input) */
+
+.h2sectionlive
+{
+background-color: rgba(36, 1, 93, 0.5);
+border: 2px solid purple;
+padding: 50px;
+}
+
+h2.liveonline
+{
+text-align: left;
+font-size: 40px;
+
+}
+
+.sectionlive
+{
+
+display: grid;
+grid-template-columns: 50% 50%;
+grid-gap: 70px;
+
+}
+
+.sectionlive img
+{
+right:20%;
+}
+
+.sectionlive p
+{
+    text-align: left;
+    margin-right: 40%;
+    word-spacing: 8px;
+    line-height: 1.6;
+    font-size:larger;
+}
+
+.sectionlive input
+{
+    margin-right: 100%;
+    font-size: 50px;
+    color:hsl(7, 88%, 67%) ;
+    background-color: lightblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: 8px solid lightblue;
+border-radius: 6px;
+text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5); 
+-webkit-text-stroke: 0.8px black; /* Width and color of the outline */
+
+}
+
+.hoverbutton:hover
+{
+background-color:purple;
+border-color: rgba(36, 1, 93, 0.5);
+color: yellow;
+}
+
+/********************************************************************/
+
+/*Landing Page - CSS for div (whyattend) and its elements (h2, img, p) */
+
+.whyattend
+{
+    background-color:  rgba(36, 1, 93, 0.5);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.whyattend h2
+{
+    text-align: left;
+    margin-left: 5%;
+}
+
+img.attendcodcon
+{
+    float:left;
+    margin-left: 5%;
+    padding-right: 2%;
+    
+}
+
+p.paraattencodcon
+{
+text-align: center;
+margin-right: 5%;
+padding:10px;
+word-spacing: 3px;
+line-height: 1.9;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 120%;
+}
+
+/* END OF LANDING PAGE CSS*/
+/*****************************************************************************************************************************/
+
+
+/* LOGIN.HTML (FORM) - CSS for fieldset */
+fieldset.PIBOX
+
+{
+    margin-left:10%;
+    margin-right: 10%;
+    
+}
+
+/* LOGIN.HTML (FORM) - CSS for legend */
+legend
+{
+    font-weight: bold;
+    font-size: larger;
+    color: hsl(7, 71%, 60%);
+    text-shadow: 1px 0px 1px rgb(14, 13, 13);
+    -webkit-text-stroke: 0.1px hsl(7, 71%, 60%); 
+     
+}
+
+/* LOGIN.HTML (FORM) - CSS for <p> Upload Avatar*/
+
+p.uploadA
+{
+text-align: left;
+margin-left: 25%;
+
+}
+
+/********************************************************************/
+/* LOGIN.HTML (FORM) - CSS for Upload Avator Input type=FILE, Image */
+
+.image-upload-wrapper
+{
+background-color: rgba(255,255,255,0.2);
+border: #ffffff 0.5px solid;
+border-style:dashed;
+border-radius: 5px 5px 5px 5px;
+margin-left:25%;
+margin-right: 25%;
+}
+
+
+/* to hide file input */
+.image-upload-wrapper input[type="file"] {
+  display:none;
+}
+
+/* Styles image to indicate it is clickable */
+.upload-trigger-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+background-color: rgba(255,255,255,0.2);
+border: #ffffff 0.5px solid;
+border-radius: 5px 5px 5px 5px;
+margin-top: 4%;
+}
+
+
+.upload-trigger-img:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+/********************************************************************/
+
+/* LOGIN.HTML (FORM) - CSS for labels for <input> text and email */
+
+.labeltexta
+{
+margin-right: 43%;
+ 
+}
+
+.labeltextb
+{
+margin-right: 40%;
+
+}
+
+.labeltextc
+{
+margin-right: 38%;
+ 
+}
+
+
+/* LOGIN.HTML (FORM) - CSS for BOXES for <input> text and email */
+
+.inputboxes
+{
+background-color: rgba(255,255,255,0.2);
+border: #ffffff 0.5px solid;
+border-radius: 5px 5px 5px 5px;
+padding-top: 10px;
+color: white;
+}
+
+input:focus
+{
+background: rgba(31, 30, 30, 0.843);
+}
+
+input:hover
+{
+
+background-color: rgba(222, 217, 215, 0.39);
+}
+
+
+/* LOGIN.HTML (FORM) - CSS for styling SUBMIT BUTTON - Generate My Ticket */
+
+.buttonstyle
+
+{
+font-size: 25px;
+font-weight: bold;
+    color:black ;
+    background-color: hsl(7, 88%, 67%);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 5px;
+border: 2px solid hsl(7, 88%, 67%);
+width:530px;
+
+}
+
+
+/* END OF LOGIN.HTML (FORM) - CSS */
+/*****************************************************************************************************************************/
+
+
+/* TICKET.HTML - CSS for ticket image */
+
+.TICKETtextoverimage1
+{
+position: relative;
+  display: inline-block; 
+  width: 100%;           
+  max-width: 600px; 
+}
+
+.TICKETtextoverimage1 img
+{
+width: 100%;
+  display: block;        
+  height: auto;
+
+}
+
+.TICKETimageoverlay /* Coding Conf Image*/
+{
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center; 
+
+}
+
+
+.TICKETtextoverlay /* name, github username*/
+{
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  transform: translate(-50%, -50%); 
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left; 
+
+}
+
+.randomticketnum  /*random ticket number*/
+
+{
+position: absolute;
+  top: 25%;
+  left: 87%;
+  transform: translate(-50%, -50%); 
+  color: #ffffff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  
+  /* to make text gradient color: hsl(7, 86%, 67%) to hsl(0, 0%, 100%);*/
+
+   /* gradient background */
+  background-image: linear-gradient(180deg, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+  
+  /* clip background to text*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* makes default text color invisible to reveal background underneath */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+  /* keeps gradient tight around text*/
+  display: inline-block;
+
+
+}
+
+
+/* END OF TICKET.HTML - CSS */
+/*****************************************************************************************************************************/
